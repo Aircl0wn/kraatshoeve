@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Adobe Handwriting';
+    src: local('Adobe Handwriting Tiffany'), local('Adobe-Handwriting-Tiffany'),
+        url('AdobeHandwriting-Tiffany.woff2') format('woff2'),
+        url('AdobeHandwriting-Tiffany.woff') format('woff'),
+        url('AdobeHandwriting-Tiffany.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
