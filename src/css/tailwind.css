@@ -4,6 +4,27 @@
 
 @tailwind utilities;
 
+@layer utilities {
+  @variants responsive {
+      .masonry {
+          column-gap: 1em;
+          column-count: 1;
+      }
+      .masonry-sm {
+          column-gap: 1em;
+          column-count: 2;
+      }
+      .masonry-md {
+          column-gap: 1em;
+          column-count: 3;
+      }
+      .break-inside {
+          break-inside: avoid;
+      }
+
+  }
+}
+
 /* karla-300 - latin */
 @font-face {
   font-family: "Karla";
