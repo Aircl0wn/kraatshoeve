@@ -54,7 +54,16 @@
   font-family: "Koara";
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/koara/koara.otf") format("opentype");
+  src: url("/fonts/koara/KoaraRegular.woff2") format("woff2"),
+  url("/fonts/koara/KoaraRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Koara";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/koara/KoarawildBold.woff2") format("woff2"),
+  url("/fonts/koara/KoarawildBold.woff") format("woff");
 }
 
 .desktop-menu .active {
