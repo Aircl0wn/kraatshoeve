@@ -100,7 +100,6 @@ blockquote {
 header,
 footer {
   position: relative;
-  z-index: 0;
 }
 
 header::after {
@@ -114,7 +113,7 @@ header::after {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  z-index: -1;
+  pointer-events: none;
 }
 
 footer::before {
@@ -129,5 +128,5 @@ footer::before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  z-index: -1;
+  pointer-events: none;
 }
