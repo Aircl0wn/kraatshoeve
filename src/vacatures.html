@@ -1,19 +1,21 @@
 ---
 layout: base.html
-title: Contact
+title: Vacatures
 ---
 <section class="bg-kh-dark">
   <div class="max-w-xl mx-auto px-4 py-8">
-    <h1 class="text-4xl text-kh-light">Contactformulier</h1>
-    <span class="text-lg text-kh-light">We horen graag van je!</span>
+    <h1 class="text-4xl text-kh-light m-4">Vacatures</h1>
+
+  <p class="text-lg text-kh-light mb-4">Op dit moment zijn er nog geen specifieke vacatures, maar zie jij jezelf hier in de toekomst werken, betaald of als vrijwilliger? Stuur dan een mailtje naar <a class="underline" href="mailto:info@kraatshoeve.nl">info(at)kraatshoeve.nl</a> of gebruik onderstaand formulier.</p>
+    <p class="text-lg text-kh-light mb-8">Wij maken heel graag kennis met je!</p>
     <form class="flex flex-wrap align-top grow-0 mt-4" name="contact" method="POST" data-netlify="true"
       action="/bedankt/">
 
-      <label for="name" class="text-kh-light w-full sm:w-1/4">Naam:</label> <input class="mb-6 w-full sm:w-3/4"
+      <label for="name" class="text-kh-light text-lg w-full sm:w-1/4">Naam:</label> <input class="mb-6 w-full sm:w-3/4"
         type="text" id="name" name="name" />
-      <label for="email" class="text-kh-light w-full sm:w-1/4">Email:</label> <input class="mb-6 w-full sm:w-3/4"
+      <label for="email" class="text-kh-light text-lg w-full sm:w-1/4">Email:</label> <input class="mb-6 w-full sm:w-3/4"
         type="email" id="email" name="email" />
-      <label for="message" class="text-kh-light w-full sm:w-1/4">Bericht:</label> <textarea
+      <label for="message" class="text-kh-light text-lg w-full sm:w-1/4">Bericht:</label> <textarea
         class="h-20 mb-6 w-full sm:w-3/4" id="message" name="message"></textarea>
       <button data-useless="one" data-another="foo" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-lg font-bold rounded-md text-kh-dark bg-kh-light hover:underline focus:underline" aria-hidden="true" type="submit">Verzenden</button>
     </form>
