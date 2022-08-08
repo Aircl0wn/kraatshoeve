@@ -20,6 +20,15 @@
                   border-transparent
                   hover:text-kh-dark
                 ">Ons verhaal</a>
+            <a href="/wie-doet-wat/" class="
+                  {% if page.url == '/wie-doet-wat/' %}active {% endif %}
+                  py-4
+                  px-4
+                  text-kh-medium
+                  border-b-4
+                  border-transparent
+                  hover:text-kh-dark
+                ">Wie doet wat</a>
             <a href="/bewoners/" class="
                 {% if page.url == '/bewoners/' %}active {% endif %}
                 py-4
@@ -72,6 +81,19 @@
                 transition
                 duration-300
               ">Ons verhaal</a>
+      <a href="/wie-doet-wat/" class="
+                {% if page.url == '/wie-doet-wat/' %}active {% endif %}
+                block
+                text-lg
+                px-2
+                py-4
+                hover:bg-kh-medium
+                hover:text-kh-light
+                focus:bg-kh-medium
+                focus:text-kh-light
+                transition
+                duration-300
+              ">Wie doet wat</a>
       <a href="/bewoners/" class="
               {% if page.url == '/bewoners/' %}active {% endif %}
               block
